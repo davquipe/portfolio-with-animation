@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/logo-s.png'
+import LogoD from '../../../assets/images/logo-d.png'
 import './index.scss'
 
 const Logo = () => {
@@ -37,12 +37,12 @@ const Logo = () => {
   }, [])
 
   return (
-    <div className='logo-container' ref={bgRef}>
+    <div className="logo-container" ref={bgRef}>
       <img
-        ref={solidLogoRef}
         className="solid-logo"
-        src={LogoS}
-        alt="S"
+        ref={solidLogoRef}
+        src={LogoD}
+        alt="JavaScript,  Developer"
       />
 
       <svg

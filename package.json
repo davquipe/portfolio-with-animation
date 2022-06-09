@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -12,8 +13,10 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "browser": "^0.2.6",
+    "css-loader": "^6.7.1",
     "emailjs": "^4.0.0",
     "gsap-trial": "^3.10.4",
+    "leaflet": "^1.8.0",
     "loaders.css": "^0.1.2",
     "postcss-loader": "^7.0.0",
     "react": "^18.1.0",
