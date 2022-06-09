@@ -1,6 +1,6 @@
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLLetters'
 import './index.scss'
@@ -21,7 +21,7 @@ const About = () => {
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
-                    letterClass={letterClass}
+                        sletterClass={letterClass}
                         strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
                         idx={15}
                     />
@@ -31,7 +31,7 @@ const About = () => {
                     established IT company with the opportunity to work with the latest
                     technologies on challenging and diverse projects.
                 </p>
-                <p align="LEFT">
+                <p>
                     I'm quietly confident, naturally curious, and perpetually working on
                     improving my chops one design problem at a time.
                 </p>

@@ -46,6 +46,7 @@
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
+        display: table-cell;
         max-height: 90%;
 
         h1 {
@@ -72,13 +73,13 @@
             &::after {
                 content: '<h1 />';
                 font-family: 'La Belle Aurore';
-                font-size: 19px;
-                font-weight: 19px;
+                font-size: 18px;
+                font-weight: 18px;
                 position: absolute;
                 left: -30px;
                 bottom: -20px;
                 margin-left: 20px;
-                opacity: 0.7;
+                opacity: 0.6;
             }
         }
 
