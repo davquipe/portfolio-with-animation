@@ -44,9 +44,9 @@ Netlify is set to automatically deploy the production branch (main branch) of th
 Heroku is manually deployed by our team whenever required. That is, when the main branch gets updated.
 ## Authors
 👤 **Andrés Felipe Arroyave Naranjo**
-- GitHub: [@JohnFTitor](https://github.com/davquipe)
-- Twitter: [@johnftitor](https://twitter.com/davquipe)
-- LinkedIn: [Andres](https://www.linkedin.com/in/davquipe/?locale=en_US)
+- GitHub: [@davquipe](https://github.com/davquipe)
+- Twitter: [@davquipe](https://twitter.com/davquipe)
+- LinkedIn: [David](https://www.linkedin.com/in/davquipe/?locale=en_US)
 ## Show your support
 Give a ⭐️ if you like this project!
 ## 📝 License
